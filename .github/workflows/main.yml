@@ -1,13 +1,14 @@
-name: Ritesh Singh
+name: Schedule workflow
 
-on:
-  push:
-    branches: [ master ]
+on: 
+  schedule:
+    - cron: "*/5 * * * *"
 
 jobs:
-  demo:
+  run-script:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Greetings
-        run: echo "When winter will come it unbearable summer"
+      - name: Print message
+      run: echo "Hello Ritesh"
+  
