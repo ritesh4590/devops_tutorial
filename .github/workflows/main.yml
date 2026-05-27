@@ -2,7 +2,7 @@ name: Ritesh Singh
 
 on:
   push:
-    branches: [main]
+    branches: [ master ]
 
 jobs:
   demo:
