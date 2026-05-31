@@ -131,4 +131,13 @@ git stash clear        # Delete all stash entries permanently
 
 ---
 
+## SSH kay
+
+How to genetare SSH key
+
+```bash
+ssh-keygen -t ed25519 -C <github account email>   # It will save the ssh key in local (Path will be diaplyed in terminal), yoy have to copy and paste the key in github setting SSH section
+
+```
+
 _Last updated: May 2026_
