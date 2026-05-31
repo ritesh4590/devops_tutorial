@@ -31,6 +31,12 @@ git config --global --unset user.email         # Remove global email
 
 ---
 
+## Check git remote
+
+```bash
+git remote -v
+```
+
 ## Aliases
 
 Create shortcuts for frequently used Git commands.
